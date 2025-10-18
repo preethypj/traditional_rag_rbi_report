@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+*.sqlite3
+
+# IDEs
+.vscode/
+.idea/
+
+# Data and logs
+*.log
+*.csv
+*.json
+data/
+logs/
+
+# Model artifacts
+*.pt
+*.pkl
+*.bin
+*.h5
+*.onnx
+
+# Vector store files
+chroma/
+faiss_index/
+
+# Credentials
+*.json
